@@ -1,0 +1,13 @@
+.ui.form .field input,
+.ui.form .field input:focus {
+   border: 1px solid black;
+}
+
+.ui.modal .actions button {
+   padding: 12px;
+   font-size: 15px;
+}
+
+.ui.modal .actions button:last-of-type {
+   background-color: var(--blue-1);
+}

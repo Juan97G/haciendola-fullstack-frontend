@@ -1,0 +1,36 @@
+.change-password-container {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.change-password-container .ui.card {
+   max-width: 500px;
+}
+
+.ui.card .content .header:not(.ui) {
+   font-size: 26px;
+}
+
+.ui.card .ui.form {
+   margin: 10px 0;
+}
+
+.ui.card .ui.form .field {
+   margin-bottom: 20px;
+}
+
+.ui.card .ui.form label {
+   font-size: 17px;
+}
+
+.ui.card .extra.content {
+   display: flex;
+   justify-content: center;
+}
+
+.ui.card .extra.content button {
+   background-color: var(--blue-2);
+   padding: 20px 40px;
+}

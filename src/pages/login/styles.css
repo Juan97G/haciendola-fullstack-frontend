@@ -1,0 +1,73 @@
+.login-container {
+   background: linear-gradient(to bottom right, var(--blue-2) 32%, var(--blue-5) 82%);
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0 20px;
+}
+
+.card-container-login {
+   background-color: white;
+   max-width: 500px;
+   width: 100%;
+   padding: 50px 20px;
+   border-radius: 12px;
+   -webkit-box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+   -moz-box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+   box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.card-container-login h2 {
+   font-size: 2.2rem;
+   text-align: center;
+}
+
+.card-container-login form {
+   margin-top: 50px;
+}
+
+.container-field {
+   margin-bottom: 15px;
+}
+
+.container-field:last-of-type {
+   margin-bottom: 30px;
+}
+
+.field-error {
+   font-size: 13px;
+   color: red;
+}
+
+.field-error:before {
+   content: "●";
+   margin: 0 5px 0 10px;
+}
+
+form .ui.input {
+   background-color: rgba(0, 0, 0, .04);
+   font-size: 1.3em;
+   padding: 15px;
+   color: black;
+   border-radius: 10px;
+}
+
+.ui[class*="left icon"].input > i.icon {
+   left: auto;
+}
+
+.ui.button {
+   background-color: var(--blue-3);
+   font-size: 1.2rem;
+   padding: 20px 10px;
+   color: white;
+   border-radius: 8px;
+}
+
+.ui.button:hover {
+   background-color: var(--blue-3);
+   opacity: .9;
+   color: white;
+}
