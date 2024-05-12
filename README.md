@@ -2,6 +2,9 @@
 
 Este proyecto está realizado con [Create React App](https://github.com/facebook/create-react-app).
 
+Para la parte de estilos utilicé el framework CSS llamado [Semantic UI React](https://react.semantic-ui.com/) y 
+código puro de CSS para estilos puntuales.
+
 ## Importante
 
 En la ruta ./src/constants.js se encuentra la variable que tiene la URL para poderse comunicar con el backend.
@@ -10,6 +13,16 @@ Para ingresar a la aplicación quedan guardadas las siguientes credenciales para
 
 - email: usuarioprueba@mail.com
 - password: Pass123.
+
+## Solución
+
+El proyecto se realizó con lo siguiente:
+
+- Login y Logout de usuarios.
+- Funcionalidad para cambio de contraseña para el usuario.
+- CRUD conmpleto para poductos.
+- Validación autenticación para páginas internas.
+- Pantalla sencilla de Home.
 
 ## Scripts
 
